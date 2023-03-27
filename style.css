@@ -1,0 +1,48 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+ display: block;
+ width: 400px;
+}
+
+.perfume img {
+    float: left;
+    width: 180px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.cart-button img, .cart-button p {
+    display: inline-block;
+}
+
+.text {
+    background-color: hsl(0, 0%, 100%);
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#main-text {
+    font-size: 10px;
+}
+
