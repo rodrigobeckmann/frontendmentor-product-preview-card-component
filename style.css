@@ -8,12 +8,11 @@
 }
 
 main {
- display: block;
+ display: inline-block;
  width: 400px;
 }
 
 .perfume img {
-    float: left;
     width: 180px;
 }
 
