@@ -8,12 +8,22 @@
 }
 
 main {
- display: inline-block;
- width: 400px;
+    display: flex;
+    width: 600px;
+}
+
+.corpse {
+    margin-left: 700px;
+    margin-top: 250px;
+}
+
+.perfume {
+    margin: 0px;
 }
 
 .perfume img {
-    width: 180px;
+    width: 220px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 ul li {
@@ -21,27 +31,73 @@ ul li {
     list-style: none;
 }
 
+#new-price {
+    color: hsl(158, 36%, 37%);
+}
+
+#old-price {
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
 body {
     background-color: hsl(30, 38%, 92%);
 }
 
-.cart-button img, .cart-button p {
+.cart-button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+}
+
+.cart-button img,
+.cart-button p {
     display: inline-block;
+}
+
+.cart-button p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+.cart-button img {
+    width: 10px;
+}
+
+.cart-button-content {
+    padding: 0px 30px 0px 40px;
+    color: white;
 }
 
 .text {
     background-color: hsl(0, 0%, 100%);
+    width: 180px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    line-height: 25px;
 }
 
 #main-text {
-    font-size: 10px;
+    font-size: 11px;
+    font-family: 'Fraunces', serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
 }
 
+.corpse {
+    display: flex;
+}
+
+/*font-family: 'Fraunces', serif;
+/*font-family: 'Montserrat', sans-serif;
