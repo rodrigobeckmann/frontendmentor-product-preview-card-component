@@ -8,41 +8,118 @@
 }
 
 main {
- display: block;
- width: 400px;
+    display: flex;
+    width: 600px;
+}
+
+.corpse {
+    margin-left: 410px;
+    margin-top: 140px;
+}
+
+.perfume {
+    margin: 0px;
 }
 
 .perfume img {
-    float: left;
-    width: 180px;
+    width: 270px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+ul {
+    padding-left: 0px;
+    
 }
 
 ul li {
     display: inline-block;
     list-style: none;
+    vertical-align: middle;
+}
+
+#new-price {
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+#old-price {
+    font-size: 13px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    
 }
 
 body {
     background-color: hsl(30, 38%, 92%);
 }
 
-.cart-button img, .cart-button p {
+.cart-button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px;
+    width: 220px;
+    margin: auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+.cart-button img,
+.cart-button p {
     display: inline-block;
+}
+
+.cart-button p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+.cart-button img {
+    width: 13px;
+}
+
+.cart-button-content {
+    color: white;
+    text-align: center;
+    font-weight: 700;
 }
 
 .text {
     background-color: hsl(0, 0%, 100%);
+    width: 230px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 20px
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    font-weight: 500;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    line-height: 28px;
 }
 
 #main-text {
-    font-size: 10px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 22px;
+    padding-right: 5px;
+    font-weight: 500;
 }
 
+.corpse {
+    display: flex;
+}
+
+/*font-family: 'Fraunces', serif;
+/*font-family: 'Montserrat', sans-serif;
